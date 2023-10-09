@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, yellow, red);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrapper {
+
+    align-items: center;
+    width: 1000px;
+    height: 100%;
+    margin: 3rem auto;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+
+}
+
+.company-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+    font-weight: 500;
+    font-size: larger;
+    color: grey;
+    text-decoration: underline;
+}
+
+h4 {
+    font-weight: 900;
+    color: grey;
+}
+
+.staff {
+    text-align: center;
+    padding: 2rem 0;
+    font-weight: 900;
+    color: grey;
+}
+
+.app-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    padding-top: 2rem;
+}
+
+h4 {
+    padding-bottom: .5rem;
+}
+
+.click-in {
+    display: flex;
+    justify-content: center;
+    padding: 0 12rem;
+    margin-top: 2rem;
+}
+
+.In-btn,
+.Out-btn,
+.new-day,
+.In-btn-1,
+.Out-btn-1 {
+    padding: .5rem 2rem;
+    cursor: pointer;
+    background-color: orangered;
+    border: none;
+    color: whitesmoke;
+    border-radius: .6rem;
+    font-size: large;
+}
+
+.list-staffs {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 900;
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    margin-top: 1.5rem;
+}
+
+.user {
+    margin-top: .8rem;
+    border: 2rem;
+}
+
+
+.staff-check {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.name,
+.number {
+    margin-top: .5rem;
+    font-weight: 900;
+    color: grey;
+}
+
+p {
+    font-weight: 900;
+    color: grey;
+}
+
+i {
+    margin-top: .5rem;
+    color: grey;
+    font-size: 10rem;
+}
+
+.face {
+    font-size: 1.5rem;
+}
+
+.Time-In,
+.Time-out,
+.Time-In,
+.Time-1 {
+    margin-top: .5rem;
+    font-weight: 900;
+    color: orangered;
+}
+
+.Time-In-1,
+.Time-out-1 {
+    color:orangered ;
+}
+
+.Time-out {
+    margin-top: .4rem;
+    font-weight: 900;
+    color: orangered;
+}
